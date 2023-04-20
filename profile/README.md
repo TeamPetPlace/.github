@@ -216,7 +216,7 @@ java.io.ioexception: permission denied
 
 문제 상황
 
-- public static final _String_ REFRESH_TOKEN = "Refresh_token";
+- `public static final _String_ REFRESH_TOKEN = "Refresh_token";`
 - Refresh_token을 선언하여 Response header에 추가해주는 로직.
 - Local 환경에서 테스트를 진행시 header에 "Refresh_token" 이 정상적으로 들어온것을 확인.
 - 배포된 서버에서 Refresh_token 을 갱신할때 문제 발생.
@@ -236,28 +236,6 @@ java.io.ioexception: permission denied
 
 ```
   underscores_in_headers on;
-```
-
-</details>
-
-<details><summary>에러페이지 구현 중, PrivateRoute가 Routes안에 들어가야 한다는 오류</summary>
-
-- 문제 상황: url접근 권한을 설정하여 에러페이지를 띄우기 위해 PrivateRoute를 만들던 도중, A <Route> is only ever to be used as the child of <Routes> element, never rendered directly. Please wrap your <Route> in a <Routes> 오류가 계속해서 발생했다.
-
-- 해결 과정:
-
-  1. PrivateRoute 컴포넌트 안에 <Routes>를 억지로 넣어보기도 했다.. ⇒ 실패
-  2. 구글링을 엄청나게 해서 비슷한 오류를 찾기위해 애썼다.
-
-- 해결방법: PrivateRoute컴포넌트 안에 Route를 아예 빼버리고 children으로 props를 넘겨 주는 방식으로 변경했다.
-
-```
-    function PrivateRoute({ children, element: Element, ...rest }) {
-      const [cookies] = useCookies(["AccessToken"]);
-      const isLogin = cookies.AccessToken !== undefined;
-      return isLogin ? children : <Navigate to="/error" />;
-    }
-    export default PrivateRoute;
 ```
 
 </details>
