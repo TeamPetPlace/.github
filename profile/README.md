@@ -10,6 +10,8 @@
 
 [🐱 Pet Place 링크](https://fe-fawn.vercel.app/)
 
+[TEAM PHOTOBOOK😆](https://bow-starfish-ba2.notion.site/fe2a02c07c0e498fb2cebe79b901e81a)
+
 ## 🐶 프로젝트 소개
 
 - 유저의 위치에 따른 반려동물 관련 시설 및 동반시설에 대한 정보를 제공하고 추천합니다.
@@ -73,8 +75,10 @@
 
 ## ⚙️ 협업 Tools
 
+<div align="center">
 <a href = "https://github.com/Hun-Se"><img alt="GitHub" src ="https://img.shields.io/badge/GitHub-181717.svg?&style=for-the-badge&logo=GitHub&logoColor=white"/>
 </a> <a href = "hun-se.slack.com"> <img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=for-the-badge&logo=Slack&logoColor=white"/></a> <a href = "https://guttural-eyebrow-89d.notion.site/cfc360a8a0984eafbb85f7dd4696b943"> <img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=Notion&logoColor=white"/></a> <a href = "https://www.figma.com"> <img alt="Figma" src ="https://img.shields.io/badge/figma-F24E1E.svg?&style=for-the-badge&logo=figma&logoColor=white"/></a>
+</div>
 
 ## 📝 주요기능
 
@@ -288,4 +292,3 @@ java.io.ioexception: permission denied
 - [BE_github Link](https://github.com/TeamPetPlace/BE)
 - [FE_github Link](https://github.com/TeamPetPlace/FE)
 - [진행상황 공유페이지](https://bow-starfish-ba2.notion.site/a311d9a7965d46bd82da973e33b446ca)
-- [TEAM PHOTOBOOK😆](https://bow-starfish-ba2.notion.site/fe2a02c07c0e498fb2cebe79b901e81a)
