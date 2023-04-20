@@ -30,24 +30,6 @@
 | 표창영   | BE              | https://github.com/PyoChangYeong |
 | 김은정   | DE              | eunjung427@naver.com             |
 
-## 🚀 설치 과정
-
-1. Clone the repository
-
-2. Install dependencies
-
-   ```
-   yarn start
-   ```
-
-3. Run the app
-
-   ```
-   yarn install
-   ```
-
-🌟 ALL READY!
-
 ## 📚 FE 기술스택
 
 <div align="center">
