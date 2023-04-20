@@ -62,6 +62,8 @@
 </a> <a href = "hun-se.slack.com"> <img alt="Slack" src ="https://img.shields.io/badge/Slack-4A154B.svg?&style=for-the-badge&logo=Slack&logoColor=white"/></a> <a href = "https://guttural-eyebrow-89d.notion.site/cfc360a8a0984eafbb85f7dd4696b943"> <img alt="Notion" src ="https://img.shields.io/badge/Notion-000000.svg?&style=for-the-badge&logo=Notion&logoColor=white"/></a> <a href = "https://www.figma.com"> <img alt="Figma" src ="https://img.shields.io/badge/figma-F24E1E.svg?&style=for-the-badge&logo=figma&logoColor=white"/></a>
 </div>
 
+---
+
 ## 📝 주요기능
 
 - 유저/사업자별 회원가입
@@ -161,7 +163,6 @@
 
 </details>
 
----
 
 ## 🔥 BE 트러블슈팅 간략소개
 
@@ -245,6 +246,8 @@ java.io.ioexception: permission denied
 성능개선 전/후
 
 <img width="100%" alt="LigthHouse" src="https://user-images.githubusercontent.com/119720123/233365757-7ddb274a-8f64-46e6-80b6-9a832fe2b79a.png">
+
+---
 
 ## 🔎 참고 링크
 
