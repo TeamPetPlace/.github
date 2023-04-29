@@ -2,7 +2,7 @@
 
 # <img  width="200" src="https://user-images.githubusercontent.com/119720123/233232957-1d8420a9-fca7-4137-a428-aeb87d46e46a.png">
 
-<img width="100%" src="https://user-images.githubusercontent.com/119720123/235292172-30c240d0-1123-43d9-b881-cb6882177dc8.png">
+<img width="50%" src="https://user-images.githubusercontent.com/119720123/235292172-30c240d0-1123-43d9-b881-cb6882177dc8.png">
 프로젝트명 : Pet Place (P.P)
 
 프로젝트 설명 : 사업자는 반려동물에 관한 업체(병원,미용,카페)를 등록하고, 유저가 검색, 필터링 할 수 있는 웹페이지 (위치기반정보제공 서비스)
